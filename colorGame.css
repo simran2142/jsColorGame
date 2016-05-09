@@ -1,0 +1,24 @@
+body {
+	background-color: #393939;
+}
+div#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+div.square {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+}
+
+div.square:nth-child(2n + 1) {
+	background-color: #E4E4E4;
+}
+div.square:nth-child(2n + 2) {
+	background-color: rgb(32, 76, 241);
+}
